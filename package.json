@@ -1,0 +1,28 @@
+{
+	"name": "easy-web-scraper",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/caeserlondon/easy-web-scraper.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/caeserlondon/easy-web-scraper/issues"
+	},
+	"homepage": "https://github.com/caeserlondon/easy-web-scraper#readme",
+	"dependencies": {
+		"axios": "^0.26.1",
+		"cheerio": "^1.0.0-rc.10",
+		"cors": "^2.8.5",
+		"express": "^4.17.3",
+		"nodemon": "^2.0.15"
+	}
+}
